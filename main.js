@@ -10,7 +10,7 @@ let section_width = sectionSec.offsetWidth;
 window.addEventListener('scroll', () => {
     let scroll = window.pageYOffset;
     let sectionSecX = sectionSec.getBoundingClientRect();
-    console.log(scroll)
+    
     sky.style.transform = `translateY(-${scroll * 0.6}px)`;
     rocks3.style.transform = `translateY(-${scroll * 0.15}px)`;
     rocks2.style.transform = `translateY(${scroll * 0.3}px)`;
